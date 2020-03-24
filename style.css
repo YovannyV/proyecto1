@@ -1,0 +1,132 @@
+/* Fuente de Google Font "muli" */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Muli', sans-serif;
+}
+/* Container */
+.main-container {
+  max-width: 100%;
+  margin: 0;
+}
+/* clases "padres" del Head */
+.top-main {
+  margin: 5px auto;
+  display: flex;
+  justify-content: center;
+}
+.logo-brand {
+  width: 30%;
+  margin-left: 20px;
+}
+.top-bar {
+  width: 70%;
+}
+/*Logo principal de la pagina */
+.logo-main {
+  width: 168px;
+  height: 50px;
+  border-radius: 5px;
+}
+/* Navegador superior, lista */
+.top-main-list {
+  height: 50px;
+  margin: 0px 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+.list-nav {
+  text-decoration: none;
+  font-style: italic;
+  list-style: none;
+  color: black;
+  margin: 15px 30px;
+}
+.list-nav :hover {
+  color: rgb(43, 138, 122);
+}
+
+/* Boton de "Asesoria" */
+.btn-aser {
+  width: 100px;
+  border-radius: 10px;
+  background-color: rgb(21, 224, 191);
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  border-style: none;
+}
+/* Seccion "hero" */
+.hero {
+  background-image: url('/img/seo-analytics.jpg');
+  width: 100%;
+  height: 500px;
+  display: flex;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.hero-aside {
+  width: 400px;
+  margin: 30px;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.164);
+  border-radius: 5px;
+}
+.hero-aside h1 {
+  font-size: 40px;
+  color: rgb(21, 224, 191);
+  margin-top: 40px;
+}
+.hero-aside h3 {
+  font-size: 25px;
+  color: #ffffff;
+  padding: 5px;
+  line-height: 40px;
+}
+.hero-aside p {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: rgba(0, 0, 0, 0.726);
+  font-weight: bold;
+  padding: 10px;
+}
+/* boton "te ayudo" */
+.btn-ayd {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgb(21, 224, 191);
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  border-style: none;
+}
+/* Seccion de "Clientes" */
+.clientes {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+.title-main {
+}
+.logos-clientes {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+.logo-cliente {
+  height: 50px;
+  width: 30%;
+  margin: 20px 150px;
+}
+.lg-cocacola {
+  padding-top: 15px;
+}
+/* Seccion Mision */
