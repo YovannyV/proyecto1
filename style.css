@@ -67,7 +67,6 @@ html {
   height: 500px;
   display: flex;
   background-size: cover;
-  margin-bottom: 20px;
 }
 .hero-aside {
   width: 400px;
@@ -94,6 +93,7 @@ html {
   color: rgba(0, 0, 0, 0.726);
   font-weight: bold;
   padding: 10px;
+  font-style: italic;
 }
 /* boton "te ayudo" */
 .btn-ayd {
@@ -114,6 +114,10 @@ html {
   text-align: center;
 }
 .title-main {
+  color: rgb(11, 161, 136);
+  font-style: italic;
+  font-weight: normal;
+  padding-top: 20px;
 }
 .logos-clientes {
   width: 100%;
@@ -130,3 +134,175 @@ html {
   padding-top: 15px;
 }
 /* Seccion Mision */
+.mision {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  background-color: rgb(21, 224, 191);
+  margin-bottom: 20px;
+}
+.title-mis {
+  width: 100%;
+  font-style: italic;
+  font-weight: normal;
+  padding-top: 20px;
+  display: inline-flexbox;
+}
+.text-mis p {
+  justify-content: center;
+  width: 500px;
+  padding-bottom: 20px;
+}
+/* Seccion del Blog */
+.blog {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-content {
+  text-align: center;
+  width: 25%;
+  height: 400px;
+  line-height: 30px;
+}
+.card-title {
+  color: rgb(11, 161, 136);
+}
+.card-content p {
+  padding: 15px;
+}
+.btn-mas {
+  color: rgb(11, 161, 136);
+  font-size: 30px;
+}
+/* Seccion form-cliente (formulario del cliente) */
+
+.form-cliente {
+  background-image: url('/img/background-room.jpg');
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: flex-end;
+  background-size: 100%;
+  background-position: center;
+}
+/* este es el formulario y su contenido */
+.card-form {
+  background-color: rgba(6, 116, 97, 0.164);
+  border-radius: 5px;
+  margin: 25px;
+  width: 35%;
+  height: 400px;
+  padding-top: 15px;
+}
+.form-title {
+  color: #ffffff;
+  width: 100%;
+  height: 40px;
+  padding-left: 90px;
+}
+.form-content {
+  width: 100%;
+  line-height: 35px;
+}
+.form-content label {
+  color: rgb(21, 224, 191);
+  font-size: 17px;
+  font-weight: bold;
+  padding: 5px;
+  font-style: italic;
+}
+.form-content input {
+  margin: 5px;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border-style: none;
+}
+.btn-form {
+  font-size: 17px;
+  color: rgb(11, 161, 136);
+}
+/* Footer */
+footer {
+  height: 250px;
+  color: #ffffff;
+  background-color: rgb(21, 224, 191);
+  display: flex;
+  flex-wrap: wrap;
+}
+.redes-pag {
+  width: 25%;
+  padding-left: 10px;
+}
+/* Redes Sociales */
+.title-rs {
+  font-size: 15px;
+  color: rgb(25, 71, 64);
+  margin: 10px;
+  font-style: italic;
+}
+.redes-sociales i {
+  font-size: 30px;
+  margin: 0 10px;
+}
+/* Politicas */
+.politica-list a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+/* Servicios-bottom*/
+.servicios-bottom {
+  width: 25%;
+  padding-top: 10px;
+}
+/* los estilos del titulo son iguales al de la seccion de "blog" */
+.title-menu-bt {
+  font-size: 16px;
+  font-style: italic;
+  color: rgb(25, 71, 64);
+  text-decoration: none;
+}
+.title-menu-bt :hover {
+  color: #40ffcf;
+}
+/* los estilos de la lista son iguales al de la seccion de "blog" */
+.list-serv-blg {
+  list-style: none;
+  line-height: 25px;
+}
+/* Blog-bottom */
+.blog-bottom {
+  width: 25%;
+  padding-top: 10px;
+}
+/* email-marketing */
+.email-mkt {
+  width: 25%;
+  padding: 10px;
+  font-style: italic;
+  text-align: center;
+}
+.email-mkt label {
+  color: rgb(25, 71, 64);
+}
+.email-mkt input {
+  width: 80%;
+  height: 25px;
+  border-radius: 3px;
+  border-style: none;
+  margin: 5px;
+}
+.email-mkt p {
+  font-size: 15px;
+}
+/* Creado y Disenado por.. */
+.firm {
+  width: 100%;
+  text-align: center;
+  color: rgb(25, 71, 64);
+  font-weight: bold;
+  font-style: italic;
+}
