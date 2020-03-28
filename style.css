@@ -9,14 +9,15 @@ html {
 }
 /* Container */
 .main-container {
-  max-width: 100%;
-  margin: 0;
+  max-width: 1244px;
+  margin: 0 10px;
 }
 /* clases "padres" del Head */
 .top-main {
   margin: 5px auto;
   display: flex;
   justify-content: center;
+  padding: 20px;
 }
 .logo-brand {
   width: 30%;
@@ -59,6 +60,7 @@ html {
   font-family: 'Muli', sans-serif;
   font-weight: bold;
   border-style: none;
+  margin-right: 20px;
 }
 /* Seccion "hero" */
 .hero {
@@ -90,7 +92,7 @@ html {
 .hero-aside p {
   font-size: 20px;
   font-family: sans-serif;
-  color: rgba(0, 0, 0, 0.726);
+  color: #ffffff;
   font-weight: bold;
   padding: 10px;
   font-style: italic;
@@ -110,8 +112,9 @@ html {
 /* Seccion de "Clientes" */
 .clientes {
   width: 100%;
-  height: 200px;
+  height: 350px;
   text-align: center;
+  padding: 40px;
 }
 .title-main {
   color: rgb(11, 161, 136);
@@ -135,30 +138,46 @@ html {
 }
 /* Seccion Mision */
 .mision {
+  width: 100%;
+  height: 400px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  text-align: center;
   color: #ffffff;
   background-color: rgb(21, 224, 191);
   margin-bottom: 20px;
+  padding: 20px;
+  line-height: 30px;
+}
+.content-mision {
+  width: 50%;
+  padding: 30px;
 }
 .title-mis {
   width: 100%;
   font-style: italic;
-  font-weight: normal;
-  padding-top: 20px;
-  display: inline-flexbox;
 }
 .text-mis p {
   justify-content: center;
-  width: 500px;
-  padding-bottom: 20px;
+  width: 100%;
+  padding: 15px 0;
+  line-height: 40px;
+  font-size: 18px;
+}
+.content-img {
+  width: 50%;
+  height: 360px;
+  padding-top: 15px;
+}
+.img-mision {
+  width: 90%;
+  height: 90%;
 }
 /* Seccion del Blog */
 .blog {
   display: flex;
   flex-wrap: wrap;
+  margin: 50px 30px;
 }
 .card-content {
   text-align: center;
@@ -181,7 +200,8 @@ html {
 .form-cliente {
   background-image: url('/img/background-room.jpg');
   width: 100%;
-  height: 450px;
+  height: 600px;
+  padding: 20px;
   display: flex;
   justify-content: flex-end;
   background-size: 100%;
@@ -193,7 +213,7 @@ html {
   border-radius: 5px;
   margin: 25px;
   width: 35%;
-  height: 400px;
+  height: 450px;
   padding-top: 15px;
 }
 .form-title {
@@ -204,7 +224,7 @@ html {
 }
 .form-content {
   width: 100%;
-  line-height: 35px;
+  line-height: 45px;
 }
 .form-content label {
   color: rgb(21, 224, 191);
@@ -220,17 +240,20 @@ html {
   border-radius: 5px;
   border-style: none;
 }
+
 .btn-form {
   font-size: 17px;
   color: rgb(11, 161, 136);
 }
 /* Footer */
 footer {
-  height: 250px;
+  height: 300px;
   color: #ffffff;
   background-color: rgb(21, 224, 191);
   display: flex;
   flex-wrap: wrap;
+  padding: 30px;
+  line-height: 30px;
 }
 .redes-pag {
   width: 25%;
@@ -244,7 +267,7 @@ footer {
   font-style: italic;
 }
 .redes-sociales i {
-  font-size: 30px;
+  font-size: 35px;
   margin: 0 10px;
 }
 /* Politicas */
@@ -252,6 +275,7 @@ footer {
   color: #ffffff;
   text-decoration: none;
   margin: 0 10px;
+  list-style: none;
 }
 /* Servicios-bottom*/
 .servicios-bottom {
@@ -297,6 +321,16 @@ footer {
 }
 .email-mkt p {
   font-size: 15px;
+}
+.enviar-mkt {
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgb(25, 71, 64);
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  border-style: none;
 }
 /* Creado y Disenado por.. */
 .firm {

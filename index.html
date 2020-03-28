@@ -27,16 +27,16 @@
         </div>
         <nav class="top-bar">
           <ul class="top-main-list">
-            <a class="list-nav" href="*">
-              <li>Sobre mí</li>
+            <a class="list-nav" href="#clientes-id">
+              <li>Clientes</li>
             </a>
-            <a class="list-nav" href="*">
+            <a class="list-nav" href="#">
               <li>Servicios</li>
             </a>
-            <a class="list-nav" href="*">
+            <a class="list-nav" href="#blog-id">
               <li>Blog</li>
             </a>
-            <a class="list-nav" href="*">
+            <a class="list-nav" href="#form-id">
               <li>Contacto</li>
             </a>
             <button class="btn-aser">Asesoría</button>
@@ -55,8 +55,9 @@
           <button class="btn-ayd">Te Ayudo</button>
         </div>
       </section>
-      <section class="clientes">
+      <section class="clientes" id="clientes-id">
         <h1 class="title-main">Con quienes he trabajado:</h1>
+        <br />
         <div class="logos-clientes">
           <div class="logo-cliente">
             <img src="/img/apple-logo-negro.png" alt="logo de Apple, inc." />
@@ -74,18 +75,27 @@
         </div>
       </section>
       <section class="mision">
-        <h1 class="title-mis">Mi Misión:</h1>
-        <div class="text-mis">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
-            laborum expedita, ex libero saepe dicta, ipsa perspiciatis suscipit
-            sit quo consectetur pariatur, minus placeat modi repellat porro
-            molestias magnam voluptas?En si hay muy pocas empresas dedicadas a
-            ofrecer una buena estrateg
-          </p>
+        <div class="content-img">
+          <img
+            class="img-mision"
+            src="/img/seo-google.jpg"
+            alt="Tablet con la pagina inicial del buscador Google"
+          />
+        </div>
+        <div class="content-mision">
+          <h1 class="title-mis">Mi Misión:</h1>
+          <div class="text-mis">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
+              laborum expedita, ex libero saepe dicta, ipsa perspiciatis
+              suscipit sit quo consectetur pariatur, minus placeat modi repellat
+              porro molestias magnam voluptas?En si hay muy pocas empresas
+              dedicadas a ofrecer una buena estrateg
+            </p>
+          </div>
         </div>
       </section>
-      <section class="blog">
+      <section class="blog" id="blog-id">
         <article class="card-content">
           <h2 class="card-title">Lo mejor en SEO</h2>
           <br />
@@ -129,7 +139,7 @@
           <a class="btn-mas" href="*"><i class="fas fa-plus-square"></i></a>
         </article>
       </section>
-      <section class="form-cliente">
+      <section class="form-cliente" id="form-id">
         <div class="card-form">
           <h1 class="form-title">Trabajemos juntos!</h1>
           <form class="form-content" action="">
@@ -144,51 +154,52 @@
           </form>
         </div>
       </section>
-    </div>
-    <footer>
-      <!-- Modifique esta seccion -->
-      <div class="redes-pag">
-        <div class="redes-sociales">
-          <h4 class="title-rs">Sigueme:</h4>
-          <i class="fab fa-facebook-square"></i>
-          <i class="fab fa-instagram"></i>
+      <footer>
+        <!-- Modifique esta seccion -->
+        <div class="redes-pag">
+          <div class="redes-sociales">
+            <h4 class="title-rs">Sigueme:</h4>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+          <div class="politicas">
+            <h4 class="title-rs">Politicas</h4>
+            <ul class="politica-list">
+              <li><a href="#">Cokkies</a></li>
+              <li><a href="#">Politica de Privacidad</a></li>
+              <li><a href="#">Aviso Legal</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="politicas">
-          <h4 class="title-rs">Politicas</h4>
-          <ul class="politica-list">
-            <li><a href="*">Cokkies</a></li>
-            <li><a href="*">Politica de Privacidad</a></li>
-            <li><a href="*">Aviso Legal</a></li>
+        <div class="servicios-bottom">
+          <a class="title-menu-bt" href="#"><h4>Servicios</h4></a>
+          <ul class="list-serv-blg">
+            <li>Estrategia SEO</li>
+            <li>Keyword Research</li>
+            <li>Analítica Web</li>
+            <li>Análisis de Competencia</li>
           </ul>
         </div>
-      </div>
-      <div class="servicios-bottom">
-        <a class="title-menu-bt" href="*"><h4>Servicios</h4></a>
-        <ul class="list-serv-blg">
-          <li>Estrategia SEO</li>
-          <li>Keyword Research</li>
-          <li>Analítica Web</li>
-          <li>Análisis de Competencia</li>
-        </ul>
-      </div>
-      <div class="blog-bottom">
-        <a class="title-menu-bt" href="*">
-          <h4>Blog</h4>
-        </a>
-        <ul class="list-serv-blg">
-          <li>SEO</li>
-          <li>SEM</li>
-          <li>Herramientas SEO</li>
-        </ul>
-      </div>
-      <div class="email-mkt">
-        <label for="correo-mkt">Dejame tu correo por aca...</label>
-        <input type="email" name="correo-mkt" id="correo-mkt" />
-        <p>Tranquilo/a NADA de Spam, te puedo enviar contenido de valor!</p>
-      </div>
-      <div class="firm">
-        <p class="firm-text">Creado y diseñado por YovannyV-SEO©</p>
-      </div>
-    </footer>
+        <div class="blog-bottom">
+          <a class="title-menu-bt" href="#blog-id">
+            <h4>Blog</h4>
+          </a>
+          <ul class="list-serv-blg">
+            <li>SEO</li>
+            <li>SEM</li>
+            <li>Herramientas SEO</li>
+          </ul>
+        </div>
+        <div class="email-mkt">
+          <label for="correo-mkt">Dejame tu correo por aca...</label>
+          <input type="email" name="correo-mkt" id="correo-mkt" />
+          <input class="enviar-mkt" type="submit" value="Enviar" />
+          <p>Tranquilo/a NADA de Spam, te puedo enviar contenido de valor!</p>
+        </div>
+        <div class="firm">
+          <p class="firm-text">Creado y diseñado por YovannyV | SEO©</p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
